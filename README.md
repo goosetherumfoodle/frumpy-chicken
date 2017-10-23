@@ -18,3 +18,14 @@ run migrations:
 ```
 docker-compose run server rake db:migrate
 ```
+## rails 
+All rails commands need prepended with:
+```
+docker-compose run server
+```
+
+### javascript
+Javascript commands need prepended with:
+```
+docker-compose run client
+```
